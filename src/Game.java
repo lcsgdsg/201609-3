@@ -8,7 +8,7 @@ class Role{
 }
 
 public class Game{
-    static List<Role> p[] = new ArrayList[2];
+    static List<Role> []p = new ArrayList[2];
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
